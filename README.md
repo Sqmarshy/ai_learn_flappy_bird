@@ -5,7 +5,7 @@ This project demonstrates how to use the NEAT (NeuroEvolution of Augmenting Topo
 - 🎮 Game Simulation: A Python implementation of the Flappy Bird game using pygame.
 - 🧠 AI Training with NEAT: Utilizes the neat-python library to evolve neural networks for autonomous gameplay.
 - 🎲 Dynamic Gameplay: Realistic mechanics including gravity, moving pipes, scrolling floor and pixel-wise collision detection.
--🕹️ Manual and Autonomous Modes: Play manually or watch the AI learn and improve over generations.
+- 🕹️ Manual and Autonomous Modes: Play manually or watch the AI learn and improve over generations.
 
 ## 🛠️ How it works
 1. Game Mechanics: The bird must avoid pipes by flapping. The game includes features like gravity and collisions.
@@ -55,12 +55,12 @@ This configuration ensures that networks evolve efficiently, balancing explorati
     - neat-python
 
 ## 🚀 Setup
-1. CLone the repo and install required libraries:
-   ```bash
-   git clone https://github.com/Sqmarshy/ai_learn_flappy_bird.git
-   cd ai_learn_flappy_bird
-   pip install pygame neat-python
-   ```
+- Clone the repo and install required libraries:  
+    ```bash
+    git clone https://github.com/Sqmarshy/ai_learn_flappy_bird.git
+    cd ai_learn_flappy_bird
+    pip install pygame neat-python
+    ```
 ## 🎮 Usage
 Run main.py for the AI version and flappy_bird.py for a manual game~
 
