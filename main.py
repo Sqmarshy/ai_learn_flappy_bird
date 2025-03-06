@@ -27,7 +27,7 @@ def eval_genomes(genomes, config_neat):
 
     run = True
     while run and len(birds) > 0:
-        clock.tick(120)
+        clock.tick(45)
         pipe_index = len(pipes) - 1
 
         for event in pygame.event.get():
